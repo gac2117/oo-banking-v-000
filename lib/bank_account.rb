@@ -22,6 +22,6 @@ class BankAccount
 
   def close_account
     @statue = "closed"
-  end 
+  end
 
 end
