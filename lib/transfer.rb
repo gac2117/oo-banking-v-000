@@ -9,6 +9,6 @@ class Transfer
   end
 
   def valid?
-    self.BankAccount.valid?
+    @sender.bankaccount.valid?
   end
 end
