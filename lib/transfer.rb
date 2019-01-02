@@ -9,6 +9,7 @@ class Transfer
   end
 
   def valid?
-    @sender.bankaccount.valid?
+    @sender.backaccount.valid?
+    @receiver.BankAccount.valid?
   end
 end
